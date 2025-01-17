@@ -4,6 +4,7 @@ fn get_env_var() -> Result<(String, String), dotenvy::Error> {
     dotenvy::dotenv()?;
 
     let server_address = std::env::var("SERVER_ADDRESS").unwrap_or("127.0.0.1:3000".to_owned());
+
     let database_url =
         std::env::var("DATABASE_URL").expect("DATABASE_URL not found in the env file");
 

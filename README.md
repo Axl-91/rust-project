@@ -9,7 +9,7 @@ SERVER_ADDRESS = "[ADDRESS]:[PORT]"
 
 Also it's necessary to create the table for tasks
 
-On postgress you can run the following
+On postgres you can run the following
 
 ```
 CREATE TABLE tasks (
